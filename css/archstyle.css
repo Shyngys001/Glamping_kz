@@ -695,7 +695,7 @@ video {
 .flip-card-back {
   padding: 40px 20px;
   color: white;
-  background-color: #cf7c4564;
+  background-color: #26160c64;
   transform: rotateY(180deg);
   text-align: left;
 }
