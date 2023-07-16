@@ -190,9 +190,15 @@ function setLanguage(language) {
       flip_card_text_7.textContent = "Wi-Fi";
 
       footer_link_1.textContent = "Басты";
-      footer_link_2.textContent = "Броньдау";
-      footer_link_3.textContent = "Турлар";
-      footer_link_4.textContent = "Бағалар";
+      footer_link_1.textContent = "Броньдау";
+      footer_link_1.textContent = "Турлар";
+      footer_link_1.textContent = "Бағалар";
+
+      footer_link_2.textContent = 'Броньдау';
+      openTour3.textContent = 'Турлар'
+      footer_link_4.textContent = 'Бағалар'
+
+
 
       additional_service.textContent = "қосымша қызметтер";
       gampling_standart.textContent = "Глампинг стандарты";
@@ -236,6 +242,9 @@ function setLanguage(language) {
       burger_text_4.textContent = "Price";
       burger_text_5.textContent = "Contacts";
 
+      openTour3.textContent = 'Tour'
+      footer_link_4.textContent = 'Price'
+
       card_text_1.textContent = "These secluded corners are located far from the city noise and hustle, in the heart of nature.";
       card_text_2.textContent = "We offer you a cozy sanctuary where you can forget about everyday worries and fully relax.";
       card_text_3.textContent = "An ideal place for meditation, stress relief, immersing yourself in nature, and listening to the singing of birds...";
@@ -255,9 +264,12 @@ function setLanguage(language) {
       flip_card_text_7.textContent = "Wi-Fi";
 
       footer_link_1.textContent = "Home";
-      footer_link_2.textContent = "Book";
-      footer_link_3.textContent = "Tour";
-      footer_link_4.textContent = "Price";
+      footer_link_1.textContent = "Book";
+      footer_link_1.textContent = "Tour";
+      footer_link_1.textContent = "Price";
+
+      footer_link_2.textContent = 'Book';
+
 
       additional_service.textContent = "Additional services";
       gampling_standart.textContent = "glamping standart";
@@ -295,6 +307,9 @@ function setLanguage(language) {
       header_text_4.textContent = "Цены";
       header_text_5.textContent = "Связаться";
 
+      openTour3.textContent = 'Туры'
+      footer_link_4.textContent = 'Цены'
+
       burger_text_1.textContent = "Главное";
       burger_text_2.textContent = "Бронировать";
       burger_text_3.textContent = "Туры";
@@ -320,9 +335,12 @@ function setLanguage(language) {
       flip_card_text_7.textContent = "Wi-Fi";
 
       footer_link_1.textContent = "Главное";
-      footer_link_2.textContent = "Бронировать";
-      footer_link_3.textContent = "Туры";
-      footer_link_4.textContent = "Цены";
+      footer_link_1.textContent = "Бронировать";
+      footer_link_1.textContent = "Туры";
+      footer_link_1.textContent = "Цены";
+
+      footer_link_2.textContent = 'Бронировать';
+
 
       additional_service.textContent = "Дополнительные услуги";
       gampling_standart.textContent = "Глэмпинг стандарт";
