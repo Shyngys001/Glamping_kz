@@ -1077,7 +1077,11 @@ video {
 
 /* ====================>> Adaptation <<==================== */
 
+
+
 @media screen and (max-width: 1000px) {
+
+
   #section-2-contents {
     flex-direction: column;
     justify-content: center;
@@ -1100,9 +1104,31 @@ video {
   }
 }
 
+
 @media screen and (max-width: 770px) {
-  .flip-back-text {
+  #info-card-1, #info-card-2, #info-card-3 {
+    width: 30%;
+    height: 20vh;
+    font-size: 12px;
+  }
+
+  #section-1 {
+    height: 110vh;
+  }
+  .flip-card-front, .flip-card-back {
+    height: 55vh;
+  }
+
+  #flip-back-including {
     font-size: 10px;
+  }
+
+  #section-2-background-img {
+    height: 110vh;
+  }
+
+  .flip-back-text {
+    font-size: 8px;
   }
   #header {
     width: 100%;
@@ -1204,6 +1230,8 @@ video {
 }
 
 @media screen and (max-width: 600px) {
+  
+
   #tour-section-info-block {
     height: 200px;
   }
@@ -1227,3 +1255,35 @@ video {
     transform: translateX(-50%);
   }
 }
+
+@media(max-height: 450px) {
+
+  #home-page {
+    height: 140vh;
+  }
+
+  #info-card-1, #info-card-2, #info-card-3 {
+    width: 30%;
+    height: 25vh;
+    font-size: 10px;
+  }
+  .flip-card-front, .flip-card-back {
+    height: 250vh;
+  }
+
+  #section-1-gallery {
+    height: 100vh;
+    width: 50%;
+  }
+  #section-1 {
+    height: 150vh;
+  }
+
+  .flip-card-front, .flip-card-back {
+    height: 100vh;
+  }
+  #section-2-background-img {
+    height: 180vh;
+  }
+}
+
