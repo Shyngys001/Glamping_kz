@@ -25,12 +25,15 @@ let openTour3 = document.getElementById("link-tour-2");
 let openHome = document.getElementById("switch-home-button");
 let switchBlock = document.getElementById("switch-block")
 let tourPage = document.getElementById("tour-section");
-let body = document.getElementById("body")
+let body = document.getElementById("body");
+let switchPrice = document.getElementById("switch-price-link");
+
 
 openTour1.addEventListener("click", switchTourSections);
 openTour2.addEventListener("click", switchTourSections);
 openTour3.addEventListener("click", switchTourSections);
 openHome.addEventListener("click", switchHomeSections);
+switchPrice.addEventListener("click", switchHomeSections);
 
 function switchTourSections() {
   switchBlock.classList.remove("switch-block-animate-2");
