@@ -241,7 +241,7 @@ function setLanguage(language) {
       card_text_3.textContent = "An ideal place for meditation, stress relief, immersing yourself in nature, and listening to the singing of birds...";
 
       service_text_1.textContent = "Entrance for adults — 6000₸";
-      service_text_2.textContent = "For children from 6 to 12 years old - 3000₸";
+      service_text_2.textContent = "For children from 6 to 12 years old — 3000₸";
       service_text_3.textContent = "Entrance for children under 6 years — Free";
       service_text_4.textContent = "Sauna for glamping guests — 15000₸";
       service_text_5.textContent = "Sauna for guests without glamping — 120000₸";
@@ -305,11 +305,11 @@ function setLanguage(language) {
       card_text_2.textContent = "Предлагаем вам уютное убежище, где вы сможете забыть о повседневных заботах и полностью расслабиться.";
       card_text_3.textContent = "Идеальное место для медитации, снять стресс, расствориться в природе, слушать пение птиц...";
 
-      service_text_1.textContent = "Вход взрослым --- 6000₸";
-      service_text_2.textContent = "Для детей от 6 до 12 лет - 3000₸";
-      service_text_3.textContent = "Вход детям до 6 лет   ---   Бесплатно";
-      service_text_4.textContent = "Баня для гостей глэмпинга  ---    15000₸";
-      service_text_5.textContent = "Баня для гостей без глэмпинга  ---    120000₸";
+      service_text_1.textContent = "Вход взрослым — 6000₸";
+      service_text_2.textContent = "Для детей от 6 до 12 лет — 3000₸";
+      service_text_3.textContent = "Вход детям до 6 лет — Бесплатно";
+      service_text_4.textContent = "Баня для гостей глэмпинга — 15000₸";
+      service_text_5.textContent = "Баня для гостей без глэмпинга — 120000₸";
 
       flip_card_text_1.textContent = "Завтрак";
       flip_card_text_2.textContent = "Банные и косметические принадлежности";
