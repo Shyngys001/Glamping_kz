@@ -24,7 +24,7 @@ window.addEventListener("scroll", () => {
     document.getElementById("body").classList.remove("body-color");
     document.getElementById("body-background").style.display = "initial";
   }
-});
+});‎
 
 
 let openTour1 = document.getElementById("link-tour");
@@ -351,7 +351,7 @@ function setLanguage(language) {
       footer_link_1.textContent = "Главное";
       footer_link_2.textContent = "Бронировать";
       footer_link_2.textContent = "Туры";
-      footer_link_3.textContent = "Цены";
+      footer_link_3.textContent = "Туры";
 
       footer_link_2.textContent = 'Бронировать';
 
