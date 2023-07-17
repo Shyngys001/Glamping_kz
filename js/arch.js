@@ -140,10 +140,16 @@ let gampling_standart = document.getElementById("section-2-content-title-text")
 let four_seats = document.getElementById("section-2-content-title-text-1");
 let a2_c2 = document.getElementById("section-2-content-title-text-2");
 
+let flip_back_including = document.getElementById("flip-back-including");
+let including = document.getElementById('including');
+
 function setLanguage(language) {
     document.getElementById('dropdown-button').innerText = language;
     
     if (language === 'KZ') {
+      flip_back_including.textContent = "ІШІНДЕ";
+      including.textContent = "ІШІНДЕ";
+
       tour_txt_1.textContent = "ДЕМАЛЫС ІС-ШАРАЛАРЫ";
       tour_txt_2.textContent = "Яхтинг";
       tour_txt_3.textContent = "Сүңгу";
@@ -211,6 +217,9 @@ function setLanguage(language) {
       footer_text_1.textContent = "Қазақстан Республикасы Маңғыстау облысы, Мұнайлы ауданы, Қызылқұм жері, 2/27 учаскесі";
         
     } else if (language === 'EN') {
+      flip_back_including.textContent = "INCLUDING";
+      including.textContent = "INCLUDING";
+      
       tour_txt_1.textContent = "ACTIVITIES";
       tour_txt_2.textContent = "Yachting";
       tour_txt_3.textContent = "Diving";
@@ -280,6 +289,9 @@ function setLanguage(language) {
       footer_text_1.textContent = "Republic of Kazakhstan Mangystau region, Munailinsky district, Kyzylkum locality, plot 2/27";
         
     } else if (language === 'RU') {
+      flip_back_including.textContent = "ВХОДИТ";
+      including.textContent = "ВХОДИТ";
+      
       tour_txt_1.textContent = "АКТИВНЫЙ ОТДЫХ";
       tour_txt_2.textContent = "Яхтинг";
       tour_txt_3.textContent = "Дайвинг";
