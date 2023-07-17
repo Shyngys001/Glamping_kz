@@ -16,6 +16,14 @@ window.addEventListener("scroll", () => {
     headerNav.style.marginTop = "-20px";
     changeLanguage.style.marginTop = "0px";
   }
+
+  if (window.scrollY > 1500) {
+    document.getElementById("body").classList.add("body-color");
+    document.getElementById("body-background").style.display = "none";
+  } else {
+    document.getElementById("body").classList.remove("body-color");
+    document.getElementById("body-background").style.display = "initial";
+  }
 });
 
 
