@@ -148,7 +148,7 @@ function setLanguage(language) {
     
     if (language === 'KZ') {
       flip_back_including.textContent = "ІШІНДЕ";
-      including.textContent = "ІШІНДЕ ➨";
+      including.textContent = "ІШІНДЕ 🡲";
 
       tour_txt_1.textContent = "ДЕМАЛЫС ІС-ШАРАЛАРЫ";
       tour_txt_2.textContent = "Яхтинг";
@@ -218,7 +218,7 @@ function setLanguage(language) {
         
     } else if (language === 'EN') {
       flip_back_including.textContent = "INCLUDING";
-      including.textContent = "INCLUDING ➨";
+      including.textContent = "INCLUDING 🡲";
       
       tour_txt_1.textContent = "ACTIVITIES";
       tour_txt_2.textContent = "Yachting";
@@ -290,7 +290,7 @@ function setLanguage(language) {
         
     } else if (language === 'RU') {
       flip_back_including.textContent = "ВХОДИТ";
-      including.textContent = "ВХОДИТ ➨";
+      including.textContent = "ВХОДИТ 🡲";
       
       tour_txt_1.textContent = "АКТИВНЫЙ ОТДЫХ";
       tour_txt_2.textContent = "Яхтинг";
