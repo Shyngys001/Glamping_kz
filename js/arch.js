@@ -141,6 +141,7 @@ let additional_service = document.getElementById("additional-services");
 let follow_us_text = document.getElementById("follow-us-text");
 let make_holiday_text = document.getElementById("section-1-header-text");
 let including_text = document.getElementById("including");
+let including_text_1 = document.getElementById("flip-back-including");
 let flip_card_contact = document.getElementById("flip-back-button");
 let from120 = document.getElementById("hover-the-card");
 let footer_text_1 = document.getElementById("footer-location-info");
@@ -201,9 +202,9 @@ function setLanguage(language) {
       flip_card_text_7.textContent = "Wi-Fi";
 
       footer_link_1.textContent = "Басты";
-      footer_link_1.textContent = "Броньдау";
-      footer_link_1.textContent = "Турлар";
-      footer_link_1.textContent = "Бағалар";
+      footer_link_2.textContent = "Броньдау";
+      footer_link_3.textContent = "Турлар";
+      footer_link_4.textContent = "Бағалар";
 
       footer_link_2.textContent = 'Броньдау';
       openTour3.textContent = 'Турлар'
@@ -217,7 +218,8 @@ function setLanguage(language) {
       a2_c2.textContent = "2 ересек | 2 бала";
       follow_us_text.textContent = "Бізбен болыңыз";
       make_holiday_text.textContent = "демалысыңызды ұмытылмастай етіңіз";
-      including_text = "Қамтылады";
+      including_text.textContent = "Қамтылады";
+      including_text_1.textContent = "Қамтылады";
       flip_card_contact.textContent = "Байланысу";
       from120.textContent = "120.000₸ бастап";
       footer_text_1.textContent = "Қазақстан Республикасы Маңғыстау облысы, Мұнайлы ауданы, Қызылқұм жері, 2/27 учаскесі";
@@ -275,9 +277,9 @@ function setLanguage(language) {
       flip_card_text_7.textContent = "Wi-Fi";
 
       footer_link_1.textContent = "Home";
-      footer_link_1.textContent = "Book";
-      footer_link_1.textContent = "Tour";
-      footer_link_1.textContent = "Price";
+      footer_link_2.textContent = "Book";
+      footer_link_3.textContent = "Tour";
+      footer_link_4.textContent = "Price";
 
       footer_link_2.textContent = 'Book';
 
@@ -288,7 +290,8 @@ function setLanguage(language) {
       a2_c2.textContent = "2 adults | 2 children";
       follow_us_text.textContent = "follow us";
       make_holiday_text.textContent = "make your holiday unforgettable";
-      including_text = "including";
+      including_text.textContent = "including";
+      including_text_1.textContent = "including";
       flip_card_contact.textContent = "Contacts";
       from120.textContent = "from 120,000₸";
       footer_text_1.textContent = "Republic of Kazakhstan Mangystau region, Munailinsky district, Kyzylkum locality, plot 2/27";
@@ -346,9 +349,9 @@ function setLanguage(language) {
       flip_card_text_7.textContent = "Wi-Fi";
 
       footer_link_1.textContent = "Главное";
-      footer_link_1.textContent = "Бронировать";
-      footer_link_1.textContent = "Туры";
-      footer_link_1.textContent = "Цены";
+      footer_link_2.textContent = "Бронировать";
+      footer_link_2.textContent = "Туры";
+      footer_link_3.textContent = "Цены";
 
       footer_link_2.textContent = 'Бронировать';
 
@@ -359,7 +362,8 @@ function setLanguage(language) {
       a2_c2.textContent = "2 взрослых | 2 детей";
       follow_us_text.textContent = "Будьте с нами";
       make_holiday_text.textContent = "сделайте ваш отдых незабываемым";
-      including_text = "Входит";
+      including_text.textContent = "Входит";
+      including_text_1.textContent = "Входит";
       flip_card_contact.textContent = "Связаться";
       from120.textContent = "от 120.000₸";
       footer_text_1.textContent = "Республика Казахстан Мангистауская область, Мунайлинский район, местность Кызылкум, участок 2/27";
