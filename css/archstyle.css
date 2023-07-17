@@ -36,6 +36,11 @@ z-index: -1000 <=> -9999; is for section 2 background
   background: #555;
 }
 
+.body-color {
+  background: rgb(0,56,110);
+  background: linear-gradient(180deg, rgba(0,56,110,0) 0%, rgba(0,0,60,1) 30%);
+}
+
 .body-style {
   margin: 0;
   padding: 0;
