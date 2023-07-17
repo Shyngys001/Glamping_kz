@@ -193,10 +193,6 @@ function setLanguage(language) {
       flip_card_text_7.textContent = "Wi-Fi";
 
       footer_link_1.textContent = "Басты";
-      footer_link_1.textContent = "Броньдау";
-      footer_link_1.textContent = "Турлар";
-      footer_link_1.textContent = "Бағалар";
-
       footer_link_2.textContent = 'Броньдау';
       openTour3.textContent = 'Турлар'
       footer_link_4.textContent = 'Бағалар'
@@ -267,9 +263,7 @@ function setLanguage(language) {
       flip_card_text_7.textContent = "Wi-Fi";
 
       footer_link_1.textContent = "Home";
-      footer_link_1.textContent = "Book";
-      footer_link_1.textContent = "Tour";
-      footer_link_1.textContent = "Price";
+      
 
       footer_link_2.textContent = 'Book';
 
@@ -338,9 +332,7 @@ function setLanguage(language) {
       flip_card_text_7.textContent = "Wi-Fi";
 
       footer_link_1.textContent = "Главное";
-      footer_link_1.textContent = "Бронировать";
-      footer_link_1.textContent = "Туры";
-      footer_link_1.textContent = "Цены";
+
 
       footer_link_2.textContent = 'Бронировать';
 
