@@ -175,13 +175,13 @@ function setLanguage(language) {
       bookStay.textContent = "Орын броньдаңыз"
       book_never.textContent = "Ұмытылмас күн"
 
-      header_text_1.textContent = "Басты";
+      // header_text_1.textContent = "Басты";
       header_text_2.textContent = "Броньдау";
       header_text_3.textContent = "Турлар";
       header_text_4.textContent = "Бағалар";
       header_text_5.textContent = "Байланысу";
 
-      burger_text_1.textContent = "Басты";
+      // burger_text_1.textContent = "Басты";
       burger_text_2.textContent = "Броньдау";
       burger_text_3.textContent = "Турлар";
       burger_text_4.textContent = "Бағалар";
@@ -205,7 +205,7 @@ function setLanguage(language) {
       flip_card_text_6.textContent = "шай ыдыстары";
       flip_card_text_7.textContent = "Wi-Fi";
 
-      footer_link_1.textContent = "Басты";
+      // footer_link_1.textContent = "Басты";
       footer_link_1.textContent = "Броньдау";
       footer_link_1.textContent = "Турлар";
       footer_link_1.textContent = "Бағалар";
@@ -323,18 +323,18 @@ function setLanguage(language) {
       bookStay.textContent = "Забронируйте приезд"
       book_never.textContent = "Незабываемый день"
 
-      header_text_1.textContent = "Главное";
+      // header_text_1.textContent = "Главное";
       header_text_2.textContent = "Бронировать";
-      header_text_3.textContent = "Туры";
+      header_text_3.textContent = "Мы имеем";
       header_text_4.textContent = "Цены";
       header_text_5.textContent = "Связаться";
 
-      openTour3.textContent = 'Туры'
+      openTour3.textContent = 'Мы имеем'
       footer_link_4.textContent = 'Цены'
 
-      burger_text_1.textContent = "Главное";
+      // burger_text_1.textContent = "Главное";
       burger_text_2.textContent = "Бронировать";
-      burger_text_3.textContent = "Туры";
+      burger_text_3.textContent = "Мы имеем";
       burger_text_4.textContent = "Цены";
       burger_text_5.textContent = "Связаться";
 
@@ -356,7 +356,7 @@ function setLanguage(language) {
       flip_card_text_6.textContent = "Чайные принадлежности";
       flip_card_text_7.textContent = "Wi-Fi";
 
-      footer_link_1.textContent = "Главное";
+      // footer_link_1.textContent = "Главное";
       footer_link_1.textContent = "Бронировать";
       footer_link_1.textContent = "Туры";
       footer_link_1.textContent = "Цены";
