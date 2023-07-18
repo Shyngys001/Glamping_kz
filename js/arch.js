@@ -16,6 +16,14 @@ window.addEventListener("scroll", () => {
     headerNav.style.marginTop = "-20px";
     changeLanguage.style.marginTop = "0px";
   }
+
+  if (window.scrollY > 1500) {
+    document.getElementById("body").classList.add("body-color");
+    document.getElementById("body-background").style.display = "none";
+  } else {
+    document.getElementById("body").classList.remove("body-color");
+    document.getElementById("body-background").style.display = "initial";
+  }
 });
 
 
@@ -132,7 +140,6 @@ let footer_link_4 = document.getElementById("link-price-2");
 let additional_service = document.getElementById("additional-services");
 let follow_us_text = document.getElementById("follow-us-text");
 let make_holiday_text = document.getElementById("section-1-header-text");
-let including_text = document.getElementById("including");
 let flip_card_contact = document.getElementById("flip-back-button");
 let from120 = document.getElementById("hover-the-card");
 let footer_text_1 = document.getElementById("footer-location-info");
@@ -140,16 +147,13 @@ let gampling_standart = document.getElementById("section-2-content-title-text")
 let four_seats = document.getElementById("section-2-content-title-text-1");
 let a2_c2 = document.getElementById("section-2-content-title-text-2");
 
-let flip_back_including = document.getElementById("flip-back-including");
-let including = document.getElementById('including');
+let bookStay = document.getElementById('booking-stay');
+let book_never = document.getElementById('book-never');
 
 function setLanguage(language) {
     document.getElementById('dropdown-button').innerText = language;
     
     if (language === 'KZ') {
-      flip_back_including.textContent = "ІШІНДЕ";
-      including.textContent = "ІШІНДЕ 🡲";
-
       tour_txt_1.textContent = "ДЕМАЛЫС ІС-ШАРАЛАРЫ";
       tour_txt_2.textContent = "Яхтинг";
       tour_txt_3.textContent = "Сүңгу";
@@ -167,6 +171,9 @@ function setLanguage(language) {
       tour_txt_15.textContent = "ГРИЛЬ ЖӘНЕ БАРБЕКЮ АЙМАҒЫ";
       tour_txt_16.textContent = "СКАНДИНАВИЯ МОНШАСЫ";
       tour_txt_17.textContent = "БАҒАСЫ";
+
+      bookStay.textContent = "Орын броньдаңыз"
+      book_never.textContent = "Ұмытылмас күн"
 
       header_text_1.textContent = "Басты";
       header_text_2.textContent = "Броньдау";
@@ -199,6 +206,10 @@ function setLanguage(language) {
       flip_card_text_7.textContent = "Wi-Fi";
 
       footer_link_1.textContent = "Басты";
+      footer_link_1.textContent = "Броньдау";
+      footer_link_1.textContent = "Турлар";
+      footer_link_1.textContent = "Бағалар";
+
       footer_link_2.textContent = 'Броньдау';
       openTour3.textContent = 'Турлар'
       footer_link_4.textContent = 'Бағалар'
@@ -211,15 +222,12 @@ function setLanguage(language) {
       a2_c2.textContent = "2 ересек | 2 бала";
       follow_us_text.textContent = "Бізбен болыңыз";
       make_holiday_text.textContent = "демалысыңызды ұмытылмастай етіңіз";
-      including_text = "Қамтылады";
+      including_text.textContent = "Қамтылады";
       flip_card_contact.textContent = "Байланысу";
       from120.textContent = "120.000₸ бастап";
       footer_text_1.textContent = "Қазақстан Республикасы Маңғыстау облысы, Мұнайлы ауданы, Қызылқұм жері, 2/27 учаскесі";
         
     } else if (language === 'EN') {
-      flip_back_including.textContent = "INCLUDING";
-      including.textContent = "INCLUDING 🡲";
-      
       tour_txt_1.textContent = "ACTIVITIES";
       tour_txt_2.textContent = "Yachting";
       tour_txt_3.textContent = "Diving";
@@ -237,6 +245,9 @@ function setLanguage(language) {
       tour_txt_15.textContent = "GRILL AND BBQ AREA";
       tour_txt_16.textContent = "SCANDINAVIAN SAUNA";
       tour_txt_17.textContent = "PRICE";
+
+      bookStay.textContent = "book a stay"
+      book_never.textContent = "unforgettable day"
 
       header_text_1.textContent = "Home";
       header_text_2.textContent = "Book";
@@ -272,7 +283,9 @@ function setLanguage(language) {
       flip_card_text_7.textContent = "Wi-Fi";
 
       footer_link_1.textContent = "Home";
-      
+      footer_link_1.textContent = "Book";
+      footer_link_1.textContent = "Tour";
+      footer_link_1.textContent = "Price";
 
       footer_link_2.textContent = 'Book';
 
@@ -289,9 +302,6 @@ function setLanguage(language) {
       footer_text_1.textContent = "Republic of Kazakhstan Mangystau region, Munailinsky district, Kyzylkum locality, plot 2/27";
         
     } else if (language === 'RU') {
-      flip_back_including.textContent = "ВХОДИТ";
-      including.textContent = "ВХОДИТ 🡲";
-      
       tour_txt_1.textContent = "АКТИВНЫЙ ОТДЫХ";
       tour_txt_2.textContent = "Яхтинг";
       tour_txt_3.textContent = "Дайвинг";
@@ -309,6 +319,9 @@ function setLanguage(language) {
       tour_txt_15.textContent = "ГРИЛЬ И BBQ ЗОНА";
       tour_txt_16.textContent = "СКАНДИНАВСКИЕ БАНИ";
       tour_txt_17.textContent = "Цены";
+      
+      bookStay.textContent = "Забронируйте приезд"
+      book_never.textContent = "Незабываемый день"
 
       header_text_1.textContent = "Главное";
       header_text_2.textContent = "Бронировать";
@@ -344,7 +357,9 @@ function setLanguage(language) {
       flip_card_text_7.textContent = "Wi-Fi";
 
       footer_link_1.textContent = "Главное";
-
+      footer_link_1.textContent = "Бронировать";
+      footer_link_1.textContent = "Туры";
+      footer_link_1.textContent = "Цены";
 
       footer_link_2.textContent = 'Бронировать';
 
