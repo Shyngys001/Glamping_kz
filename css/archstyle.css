@@ -1017,6 +1017,7 @@ video {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+	background-color: #ffffff;
 }
 
 #booking-title {
@@ -1101,6 +1102,7 @@ video {
   width: 100%;
   padding: 2% 5%;
   display: flex;
+	background-color: #ffffff;
 }
 
 #footer i {
