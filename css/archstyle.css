@@ -291,6 +291,11 @@ video {
   transition: right 0.3s ease;
 }
 
+.menu a {
+  color: #000;
+  text-decoration: none;
+}
+
 #burger-container.open ~ .menu {
   right: 0;
 }
