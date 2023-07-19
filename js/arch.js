@@ -17,13 +17,13 @@ window.addEventListener("scroll", () => {
     changeLanguage.style.marginTop = "0px";
   }
 
-  // if (window.scrollY > 1400) {
-  //   document.getElementById("body").classList.add("body-color");
-  //   document.getElementById("body-background").style.display = "none";
-  // } else {
-  //   document.getElementById("body").classList.remove("body-color");
-  //   document.getElementById("body-background").style.display = "initial";
-  // }
+  if (window.scrollY > 1400) {
+    document.getElementById("body").classList.add("body-color");
+    document.getElementById("body-background").style.display = "none";
+  } else {
+    document.getElementById("body").classList.remove("body-color");
+    document.getElementById("body-background").style.display = "initial";
+  }
 });
 
 
