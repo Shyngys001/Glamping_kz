@@ -17,7 +17,7 @@ window.addEventListener("scroll", () => {
     changeLanguage.style.marginTop = "0px";
   }
 
-  if (window.scrollY > 1500) {
+  if (window.scrollY > 1400) {
     document.getElementById("body").classList.add("body-color");
     document.getElementById("body-background").style.display = "none";
   } else {
@@ -176,14 +176,14 @@ function setLanguage(language) {
       book_never.textContent = "Ұмытылмас күн"
 
       // header_text_1.textContent = "Басты";
-      header_text_2.textContent = "Броньдау";
-      header_text_3.textContent = "Турлар";
+      header_text_2.textContent = "Біз";
+      header_text_3.textContent = "Бізде бар";
       header_text_4.textContent = "Бағалар";
       header_text_5.textContent = "Байланысу";
 
       // burger_text_1.textContent = "Басты";
-      burger_text_2.textContent = "Броньдау";
-      burger_text_3.textContent = "Турлар";
+      burger_text_2.textContent = "Біз жайлы";
+      burger_text_3.textContent = "Бізде";
       burger_text_4.textContent = "Бағалар";
       burger_text_5.textContent = "Байланысу";
 
@@ -206,12 +206,10 @@ function setLanguage(language) {
       flip_card_text_7.textContent = "Wi-Fi";
 
       // footer_link_1.textContent = "Басты";
-      footer_link_1.textContent = "Броньдау";
-      footer_link_1.textContent = "Турлар";
-      footer_link_1.textContent = "Бағалар";
+    
 
-      footer_link_2.textContent = 'Броньдау';
-      openTour3.textContent = 'Турлар'
+      footer_link_2.textContent = 'Біз жайлы';
+      openTour3.textContent = 'Бізде'
       footer_link_4.textContent = 'Бағалар'
 
 
@@ -249,19 +247,19 @@ function setLanguage(language) {
       bookStay.textContent = "book a stay"
       book_never.textContent = "unforgettable day"
 
-      header_text_1.textContent = "Home";
-      header_text_2.textContent = "Book";
-      header_text_3.textContent = "Tour";
+      header_text_1.textContent = "Omir Kazakhstan";
+      header_text_2.textContent = "About us";
+      header_text_3.textContent = "We have";
       header_text_4.textContent = "Price";
       header_text_5.textContent = "Contacts";
 
-      burger_text_1.textContent = "Home";
-      burger_text_2.textContent = "Book";
-      burger_text_3.textContent = "Tour";
+      burger_text_1.textContent = "Omir Kazakhstan";
+      burger_text_2.textContent = "About us";
+      burger_text_3.textContent = "We have";
       burger_text_4.textContent = "Price";
       burger_text_5.textContent = "Contacts";
 
-      openTour3.textContent = 'Tour'
+      openTour3.textContent = 'We have'
       footer_link_4.textContent = 'Price'
 
       card_text_1.textContent = "These secluded corners are located far from the city noise and hustle, in the heart of nature.";
@@ -282,12 +280,8 @@ function setLanguage(language) {
       flip_card_text_6.textContent = "Tea accessories";
       flip_card_text_7.textContent = "Wi-Fi";
 
-      footer_link_1.textContent = "Home";
-      footer_link_1.textContent = "Book";
-      footer_link_1.textContent = "Tour";
-      footer_link_1.textContent = "Price";
 
-      footer_link_2.textContent = 'Book';
+      footer_link_2.textContent = 'About us';
 
 
       additional_service.textContent = "Additional services";
@@ -324,7 +318,7 @@ function setLanguage(language) {
       book_never.textContent = "Незабываемый день"
 
       // header_text_1.textContent = "Главное";
-      header_text_2.textContent = "Бронировать";
+      header_text_2.textContent = "О нас";
       header_text_3.textContent = "Мы имеем";
       header_text_4.textContent = "Цены";
       header_text_5.textContent = "Связаться";
@@ -333,7 +327,7 @@ function setLanguage(language) {
       footer_link_4.textContent = 'Цены'
 
       // burger_text_1.textContent = "Главное";
-      burger_text_2.textContent = "Бронировать";
+      burger_text_2.textContent = "О нас";
       burger_text_3.textContent = "Мы имеем";
       burger_text_4.textContent = "Цены";
       burger_text_5.textContent = "Связаться";
@@ -356,12 +350,9 @@ function setLanguage(language) {
       flip_card_text_6.textContent = "Чайные принадлежности";
       flip_card_text_7.textContent = "Wi-Fi";
 
-      // footer_link_1.textContent = "Главное";
-      footer_link_1.textContent = "Бронировать";
-      footer_link_1.textContent = "Туры";
-      footer_link_1.textContent = "Цены";
 
-      footer_link_2.textContent = 'Бронировать';
+
+      footer_link_2.textContent = 'О нас';
 
 
       additional_service.textContent = "Дополнительные услуги";
