@@ -185,6 +185,7 @@ body {
 
 .slide-info-title {
   font-size: 1.4vw;
+  text-transform: uppercase;
 }
 
 .slide-info-text {
