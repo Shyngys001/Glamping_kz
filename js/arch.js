@@ -162,7 +162,7 @@ function setLanguage(language) {
       tour_txt_14.textContent = "БАССЕЙН АЛАҢЫ";
       tour_txt_15.textContent = "ГРИЛЬ ЖӘНЕ БАРБЕКЮ АЙМАҒЫ";
       tour_txt_16.textContent = "СКАНДИНАВИЯ МОНШАСЫ";
-      tour_txt_17.textContent = "БАҒАСЫ";
+      tour_txt_17.textContent = "БАСҚАЛАРЫ";
 
       bookStay.textContent = "Орын броньдаңыз"
       book_never.textContent = "Ұмытылмас күн"
@@ -234,7 +234,7 @@ function setLanguage(language) {
       tour_txt_14.textContent = "POOL ZONE";
       tour_txt_15.textContent = "GRILL AND BBQ AREA";
       tour_txt_16.textContent = "SCANDINAVIAN SAUNA";
-      tour_txt_17.textContent = "PRICE";
+      tour_txt_17.textContent = "MORE";
 
       bookStay.textContent = "book a stay"
       book_never.textContent = "unforgettable day"
@@ -304,7 +304,7 @@ function setLanguage(language) {
       tour_txt_14.textContent = "ЗОНА БАССЕЙНА";
       tour_txt_15.textContent = "ГРИЛЬ И BBQ ЗОНА";
       tour_txt_16.textContent = "СКАНДИНАВСКИЕ БАНИ";
-      tour_txt_17.textContent = "Цены";
+      tour_txt_17.textContent = "ЕЩЕ";
       
       bookStay.textContent = "Забронируйте приезд"
       book_never.textContent = "Незабываемый день"
