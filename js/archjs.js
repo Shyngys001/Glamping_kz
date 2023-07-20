@@ -44,13 +44,12 @@ let btn_en = document.getElementById("lang-en");
 let slide_title_1 = document.getElementById("slide-title-1");
 let slide_title_2 = document.getElementById("slide-title-2");
 let slide_title_3 = document.getElementById("slide-title-3");
+let slide_title_4 = document.getElementById("slide-title-4");
 let slide_info_1 = document.getElementById("slide-title-info-1");
-let slide_info_2 = document.getElementById("slide-title-info-2");
 let slide_info_3 = document.getElementById("slide-title-info-3");
 let carousel_title_1 = document.getElementById("carousel-title-1");
 let carousel_title_2 = document.getElementById("carousel-title-2");
 let inter_info = document.getElementById("interier-info");
-let small = document.getElementById("small");
 
 let kitchen = document.getElementById("room-kitchen");
 let fridge = document.getElementById("fridge");
@@ -80,15 +79,14 @@ let goHome = document.getElementById("gohome");
 btn_kz.addEventListener("click", function() {
   console.log("kz");
   slide_title_1.textContent = "жайлылық";
-  slide_title_2.textContent = "ҚЫМЫЗ ХАНА КИІЗ ҮЙ";
-  slide_title_3.textContent = "жазғы терраса";
+  slide_title_2.textContent = "жуынатын бөлме";
+  slide_title_3.textContent = "қосымша";
+  slide_title_4.textContent = "шағын ас үй";
   slide_info_1.textContent = "Бөлмелер сізге қажет нәрсенің бәрімен жабдықталған";
-  slide_info_2.textContent = "Біздің ҚЫМЫЗ ХАНА КИІЗ ҮЙ-де ұлттық тағамдардан дәм татуға болады";
-  slide_info_3.textContent = "Жазғы терраса ас үй гриль алаңымен жабдықталған";
+  slide_info_3.textContent = "гардероб, тегін Wi-Fi, климатты басқару жүйесі";
   carousel_title_1.textContent = "біздің интерьерлер, ҚЫМЫЗ ХАНА КИІЗ ҮЙ, ЖАЗҒЫ КАФЕ «SHAMSI»,";
   carousel_title_2.textContent = "  біздің интерьерлер, ҚЫМЫЗ ХАНА КИІЗ ҮЙ, ЖАЗҒЫ КАФЕ «SHAMSI», ";
   inter_info.textContent = "Бөлменің ауданы 38 м2.\n Төрт қонаққа арналған әр глампингтің сыйымдылығы және балаларға арналған қосымша орын.";
-  small.textContent = "гардероб, тегін Wi-Fi, климатты басқару жүйесі";
 
   kitchen.textContent = "ас үй: ";
   fridge.textContent = "тоңазытқыш";
@@ -118,15 +116,14 @@ btn_kz.addEventListener("click", function() {
 btn_ru.addEventListener("click", function() {
   console.log("ru");
   slide_title_1.textContent = "комфорт";
-  slide_title_2.textContent = "ҚЫМЫЗ ХАНА КИІЗ ҮЙ";
-  slide_title_3.textContent = "летняя терраса";
+  slide_title_2.textContent = "ванная комната";
+  slide_title_3.textContent = "дополнительно";
+  slide_title_4.textContent = "мини кухня";
   slide_info_1.textContent = "Номера оборудованы всем необходимым";
-  slide_info_2.textContent = "В нашем ҚЫМЫЗ ХАНА КИІЗ ҮЙ вы сможете насладиться национальной кухней";
-  slide_info_3.textContent = "На летней террасе оборудована кухня с гриль-зоной";
+  slide_info_3.textContent = "гардероб, бесплатный Wi-Fi, система климат-контроля";
   carousel_title_1.textContent = "наши интерьеры, ҚЫМЫЗ ХАНА КИІЗ ҮЙ, ЛЕТНЕЕ КАФЕ «SHAMSI», ";
   carousel_title_2.textContent = "  наши интерьеры, ҚЫМЫЗ ХАНА КИІЗ ҮЙ, ЛЕТНЕЕ КАФЕ «SHAMSI», ";
   inter_info.textContent = "Площадь номера 38 м2.\n Вместимость каждого глэмпинга для четырех гостей и дополнительного места для детей";
-  small.textContent = "гардероб, бесплатный Wi-Fi, система климат-контроля";
 
   kitchen.textContent = "кухня:";
   fridge.textContent = "холодильник";
@@ -156,15 +153,14 @@ btn_ru.addEventListener("click", function() {
 btn_en.addEventListener("click", function() {
   console.log("en");
   slide_title_1.textContent = "comfort";
-  slide_title_2.textContent = "kimys hana kiiz ùi";
-  slide_title_3.textContent = "summer terrace";
+  slide_title_2.textContent = "bathroom";
+  slide_title_3.textContent = "extra";
+  slide_title_4.textContent = "mini kitchen";
   slide_info_1.textContent = "The rooms are equipped everything you need";
-  slide_info_2.textContent = "In our Kimys hana kiiz ùi, you can enjoy the national cuisine";
-  slide_info_3.textContent = "The summer terrace is equipped with a kitchen grill area";
+  slide_info_3.textContent = "wardrobe, free Wi-Fi, climate control system";
   carousel_title_1.textContent = "our interiors, kimyz hana, yurt, SUMMER CAFE «SHAMSI», ";
   carousel_title_2.textContent = "  our interiors, kimyz hana, yurt, SUMMER CAFE «SHAMSI», ";
   inter_info.textContent = "Room area is 38 m2.\n The capacity of each glamping for four guests and additions place for children";
-  small.textContent = "wardrobe, free Wi-Fi, climate control system";
 
   kitchen.textContent = "kitchen: ";
   fridge.textContent = "fridge";
