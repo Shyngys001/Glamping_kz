@@ -443,4 +443,9 @@ a {
     width: 100%;
     height: 30vh;
   }
+
+    #interier-block p, #interier-block li {
+    font-size: 10px;
+  }
+
 }
