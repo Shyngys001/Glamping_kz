@@ -227,18 +227,18 @@ body {
 
 #terrace-title {
   position: absolute;
-  left: -10vw; top: 12vw;
+  left: -10.2vw; top: 11.2vw;
   transform: rotate(90deg);
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
-  font-size: 2.5vw;
+  font-size: 2.4vw;
   font-weight: 900;
   color: #fff;
 }
 
 #terrace-block {
   width: 100%;
-  height: 15%;
+  height: 20%;
   position: absolute;
   left: 0; bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
@@ -470,20 +470,21 @@ a {
     flex-direction: column;
   }
 
-  .slide-info-title {
+  .slide-info-title, #interier-info  {
     font-size: 10px;
   }
   
-  .slide-info-text {
+  .slide-info-text, .room-name {
     font-size: 8px;
   }
 
-  #terrace-info, #shamsi-text {
-    font-size: 7px;
+  #terrace-info, #shamsi-text, .room-info {
+    font-size: 6px;
   }
 
   #carousel-title-block {
     align-self: flex-start;
+    padding: 2%;
   }
 
   .content {
@@ -491,8 +492,7 @@ a {
     height: 30vh;
   }
 
-    #interier-block p, #interier-block li {
+  #interier-block p, #interier-block li {
     font-size: 10px;
   }
-
 }
