@@ -33,7 +33,6 @@ openTour1.addEventListener("click", switchTourSections);
 openTour2.addEventListener("click", switchTourSections);
 openTour3.addEventListener("click", switchTourSections);
 openHome.addEventListener("click", switchHomeSections);
-switchPrice.addEventListener("click", switchHomeSections);
 
 function switchTourSections() {
   switchBlock.classList.remove("switch-block-animate-2");
@@ -65,6 +64,21 @@ function switchHomeSections() {
     switchBlock.classList.remove("switch-block-animate-2");
   }, 4000);
 }
+
+
+switchPrice.addEventListener("click",  function() {
+  switchBlock.classList.remove("switch-block-animate-1");
+  switchBlock.classList.add("switch-block-animate-2");
+
+  setTimeout(function() {
+    tourPage.style.display = "none";
+  }, 2000);
+
+  setTimeout(function() {
+    window.location.href = "archpage.html";
+    switchBlock.classList.remove("switch-block-animate-2");
+  }, 4000);
+});
 
 
 function toggleMenu() {
