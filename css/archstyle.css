@@ -550,7 +550,7 @@ video {
   position: relative;
   width: 100%;
   min-height: 100vh;
-  background-color: #fff;
+  background-color: white;
 }
 
 #section-2-background {
@@ -607,7 +607,7 @@ video {
 #section-2-content-title-text {
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
-  font-size: 3vw;
+  font-size: 6vw;
   font-weight: 900;
   color: #fff;
 }
@@ -615,15 +615,15 @@ video {
 #section-2-content-title-text-1 {
   text-transform: uppercase;
   font-family: "Archivo Black", sans-serif;
-  font-size: 2.5vw;
+  font-size: 5.5vw;
   /* color: #102E37; */
 }
 
 #section-2-content-title-text-2 {
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  font-weight: 900;
+  font-size: 15px;
+  font-weight: 700;
   /* color: #102E37; */
 }
 
@@ -644,6 +644,7 @@ video {
   font-size: 20px;
   font-weight: 700;
   color: #fff;
+  text-align: center;
 }
 
 #additional-services-list {
@@ -655,6 +656,7 @@ video {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: #fff;
+  font-weight: 900;
 }
 
 #including {
@@ -680,7 +682,8 @@ video {
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  color: #fff;
+  color: #000000;
+  border: solid 1px rgb(0, 0, 0);
 }
 
 /* ====================>> Flip card <<==================== */
@@ -732,6 +735,7 @@ video {
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
+  background-image: url('../img/pic1.JPG');
 }
 
 .flip-card-front {
@@ -1021,7 +1025,7 @@ video {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-	background-color: #ffffff;
+  background-color: white;
 }
 
 #booking-title {
@@ -1034,6 +1038,7 @@ video {
   font-family: "Archivo Black", sans-serif;
   font-size: 26.3px;
   margin-bottom: 15px;
+  text-align: center;
 }
 
 #book-never {
@@ -1057,6 +1062,8 @@ video {
   max-width: 100%;
   height:500px;
 }
+
+
 
 .line-to-booking {
   bottom: 148px;
@@ -1102,11 +1109,11 @@ video {
 /* ====================>> Footer <<==================== */
 
 #footer {
-  
   width: 100%;
   padding: 2% 5%;
   display: flex;
-	background-color: #ffffff;
+  background-color: white;
+
 }
 
 #footer i {
@@ -1134,7 +1141,7 @@ video {
 #footer-title-text {
   font-family: 'Archivo Black', sans-serif;
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 20px;
 }
 
 #footer-title-text-info {
@@ -1158,6 +1165,7 @@ video {
 #footer-contact {
   margin-left: 10px;
   width: 142px;
+  
 }
 
 #footer-content {
@@ -1183,6 +1191,7 @@ video {
   font-family: 'Archivo Black', sans-serif;
   color: rgb(179, 151, 91);
   transition: all 0.3s;
+  font-size: 12px;
 }
 
 .footer-link:hover {
@@ -1255,9 +1264,15 @@ button, i {
 
 
 @media screen and (max-width: 770px) {
+
+.service-list {
+  font-size: 10px;
+  width: 100%;
+  margin: 0 auto;
+}
   .iframe {
     min-width: 300px;
-    height: 300px;
+    height: 350px;
   }
 
 #hide-jot {
