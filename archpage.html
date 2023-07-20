@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+  </head>
+
+  <body>
+
+    <div id="contents">
+
+      <div class="content">
+        <div class="carousel" data-carousel>
+          <div class="carousel-buttons">
+            <button class="carousel-button carousel-button_previous" data-carousel-button-previous>
+              <span class="fas fa-chevron-circle-left"></span>
+            </button>
+            <button class="carousel-button carousel-button_next" data-carousel-button-next>
+              <span class="fas fa-chevron-circle-right"></span>
+            </button>
+          </div>
+
+          <div class="slides" data-carousel-slides-container>
+            <div class="slide">
+              <img class="slide-img" src="https://landhome.eu/wp-content/uploads/2021/02/glempinga-maja-tents-telts.jpg" alt="">
+              <div class="slide-info">
+                <p class="slide-info-title">Title 1</p>
+                <p class="slide-info-text">1 Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+            <div class="slide">
+              <img class="slide-img" src="https://landhome.eu/wp-content/uploads/2021/02/glemps-1.jpg" alt="">
+              <div class="slide-info">
+                <p class="slide-info-title">Title 2</p>
+                <p class="slide-info-text">2 Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+            <div class="slide">
+              <img class="slide-img" src="https://landhome.eu/wp-content/uploads/2021/02/geo-maja-glempings.jpg" alt="">
+              <div class="slide-info">
+                <p class="slide-info-title">Title 3</p>
+                <p class="slide-info-text">3 Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="carousel-title-block">
+        <h1 id="carousel-title">
+          <span id="carousel-title-1">our interiors, kimyz hana, yurt, SUMMER CAFE "SHAMSI", </span>
+          <span id="carousel-title-2">our interiors, kimsz hana, yurt, SUMMER CAFE "SHAMSI", </span>
+        </h1>
+
+        <p id="interier-info">Room area is 38 m2.<br> The capacity of each glamping for four guests and additions place for children</p>
+        <div id="interier-block">
+          <div>
+            <p id="room-kitchen" class="room-name">kitchen: </p>
+            <ul>
+              <li id="fridge" class="room-info">fridge</li>
+              <li id="microwave" class="room-info">microwave</li>
+              <li id="kettle" class="room-info">electric kettle</li>
+              <li id="coffee" class="room-info">coffee machine</li>
+              <li id="stove" class="room-info">electric stove</li>
+            </ul>
+          </div>
+
+          <div>
+            <p id="room-shower" class="room-name">shower: </p>
+            <ul>
+              <li id="dryer" class="room-info">hair dryer</li>
+              <li id="underwear" class="room-info">underwear</li>
+              <li id="slipper" class="room-info">slippers</li>
+              <li id="bathroom" class="room-info">bathroom</li>
+              <li id="cabin" class="room-info">shower cabin</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <p id="terrace-title">SUMMER TERRACE</p>
+        <div id="terrace-block">
+          <p id="terrace-info">The summer terrace is equipped with a kitchen
+            grill area where you
+            you can cook delicious steaks
+            with vegetables, there is also a hammock where you
+            you can enjoy the wonderful
+            leisure reading a book.
+            On the summer terrace you can
+            friends have fun.</p>
+        </div>
+        <div id="terrace-img-block"><img id="terrace-img" src="terrace.jpg" alt=""></div>
+      </div>
+
+      <div class="content yurt-block">
+        <div id="circle-word">
+          <svg viewBox="0 0 100 100" width="100" height="100">
+            <defs>
+              <path id="circle"
+                d="
+                  M 50, 50
+                  m -37, 0
+                  a 37,37 0 1,1 74,0
+                  a 37,37 0 1,1 -74,0"/>
+            </defs>
+            <text font-size="7.5">
+              <textPath xlink:href="#circle" style="text-transform: uppercase; font-family: 'Montserrat'; font-weight: 700; color: #fff;">
+                Our guests are greeted by three beautiful yurts.
+              </textPath>
+            </text>
+          </svg>
+          <div id="yurt-info-block">
+            <p id="yurt-info">The design of the yurt reception is made from the national yurt,
+              which blends perfectly with modern
+              technology and comfort. Inside the reception you also
+              find elements in the national style, which creates
+              unique atmosphere and takes you real
+              the origins of Kazakh culture.</p>
+          </div>
+        </div>
+
+        <div class="yurt-img-block">
+          <img id="yurt-img" src="yurt.png" alt="">
+        </div>
+      </div>
+
+      <div class="content shamsi-block">
+        <div id="shamsi-content">
+          <div id="shamsi-background">
+            <img id="shamsi-img" src="shamsi-2.png" alt="">
+          </div>
+          <div id="shamsi-info">
+            <p id="shamsi-title">cafe "shamsi"</p>
+            <div>
+              <p id="shamsi-text">Summer cafe "SHAMSI" is a small portal to the vast world
+                Eastern hospitality. We invite you to taste our
+                dishes and feel the extraordinary atmosphere on the shore
+                seas. Together with a team of professional chefs,
+                masters of fine oriental cuisine, we have compiled a menu of
+                gourmet dishes for real gourmets. Our culinary
+                masterpieces will take you to the atmosphere of oriental charm and
+                hospitality. A huge selection of bar drinks will not leave you
+                indifferent in these hot summer days. "Shamsi" is designed for
+                150 seats and includes breakfast.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a id="link-home" href="index.html"><button id="btn-home"><p id="gohome">go home</p></button></a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b6b09ef856.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
