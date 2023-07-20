@@ -361,6 +361,7 @@ svg {
   background-color: #B3975B;
   padding: 3%;
   border-radius: 5px;
+  overflow: auto;
 }
 
 #shamsi-title {
