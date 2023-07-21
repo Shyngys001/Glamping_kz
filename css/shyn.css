@@ -5,9 +5,11 @@ body {
 
 }
 .about_main { 
-    width: 100%;
+    width: 90%;
     display: flex;
-    background-color: #000000b4;
+    margin: 0 auto;
+    border-radius: 25px;
+    margin-top: 50px;
 }
 
 .about_main1 { 
@@ -19,7 +21,7 @@ body {
     font-size: 35px;
     text-align: center;
     font-weight: 800;
-    color: rgb(236, 236, 236);
+    color: #B3975B;
     font-family: 'Cormorant Garamond', serif;
     font-family: 'Roboto', sans-serif;
     
@@ -27,38 +29,39 @@ body {
 
 
 #s_chego_nachinaetsa { 
-    color: rgb(236, 236, 236);
+    color: #B3975B;
     font-size: 20px;
     font-weight: 550;
     font-family: 'Comfortaa', cursive;
     font-family: 'Cormorant Garamond', serif;
-    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
 }
 
 
 .about_main2 {
     width: 100%;
+    background-color: #B3975B;
 }
 
 .about_main2_gen {
-    width: 100%;
+    width: 150%;
     display: flex;
-    background-color: rgb(152, 88, 14);
-    background-color: #0000005b;
+    background-color: #B3975B;
     align-items: center;
 }
 
 .about_main2_gen img {
     width: 50%;
-    
+
 }
 
 .about_main2_gen p {
     color: white;
     font-family: 'Comfortaa', cursive;
     font-family: 'Cormorant Garamond', serif;
-    font-family: 'Roboto', sans-serif;
     padding: 20px;
+    font-size: 25px;
+    font-weight: 500;
 
 }
 
@@ -70,9 +73,9 @@ body {
 }
 
 .about_main3 img {
-    width: 100%;
-    height: 60vh;
-    z-index: -1;
+    width: 90%;
+    height: 40vh;
+    z-index: -1000;
     margin-right: 50px;
 }
 
@@ -98,11 +101,11 @@ body {
     width: 200px;
     margin: 50px 0;
     transform: rotate(90deg);
-    border: 0.5px solid #000;
+    border: 0.5px solid #B3975B;
   }
   
   .vertical-line {
-    border: 0.5px solid #000;
+    border: 0.5px solid #B3975B;
     transform: rotate(90deg);
     width: 100px;
   }
@@ -205,18 +208,20 @@ body {
 
 
   .shyn_main2_btn {
-    border: solid 2px black;
+    border: solid 1px #B3975B;
     background-color: transparent;
     text-align: center;
     transition: all 0.6s;
     margin: 0 auto;
     font-size: 25px;
+    color: #B3975B;
+    border-radius: 15px;
   }
 
   .shyn_main2_btn:hover {
     scale: 1.2;
     cursor: pointer;
-    background-color: #0000005a;
+    background-color: #B3975B;
     color: white;
   }
 
