@@ -488,13 +488,12 @@ video {
 .section-1-gallery-img-block {
   width: 100%;
   height: 100%;
-  background-color: crimson;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
 }
 .section-1-gallery-img-block-1 {
   grid-column: 1 / 3;
   grid-row: 1 / 3;
-  background-image: url('../img/IMG_5977.JPG');
+  background-image: url('../img/NRQ_2999.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
@@ -503,7 +502,7 @@ video {
 .section-1-gallery-img-block-2 {
   grid-column: 1 / 2;
   grid-row: 3 / 4;
-  background-image: url('../img/IMG_5422.JPG');
+  background-image: url('../img/NRQ_3018.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
@@ -512,7 +511,7 @@ video {
 .section-1-gallery-img-block-3 {
   grid-column: 2 / 3;
   grid-row: 3 / 4;
-  background-image: url('../img/IMG_6038.JPG');
+  background-image: url('../img/NRQ_3031-Pano.jpg');
   background-repeat: no-repeat;
   background-size:cover;
   object-fit: cover;
@@ -521,7 +520,7 @@ video {
 .section-1-gallery-img-block-4 {
   grid-column: 3 / 4;
   grid-row: 1 / 2;
-  background-image: url('../img/IMG_5977.JPG');
+  background-image: url('../img/NRQ_3141.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
@@ -530,7 +529,7 @@ video {
 .section-1-gallery-img-block-5 {
   grid-column: 4 / 5;
   grid-row: 1 / 2;
-  background-image: url('../img/IMG_5055\ \(1\).JPG');
+  background-image: url('../img/NRQ_3084.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
@@ -539,7 +538,7 @@ video {
 .section-1-gallery-img-block-6 {
   grid-column: 3 / 5;
   grid-row: 2 / 4;
-  background-image: url('../img/IMG_5422.JPG');
+  background-image: url('../img/NRQ_2978.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
@@ -1030,7 +1029,7 @@ video {
 #section-booking {
   position: relative;
   width: 100%;
-  height: 700px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1040,7 +1039,7 @@ video {
 
 #booking-title {
   position: absolute;
-  top: 0;
+  top: 20px;
   width: 345px;
   text-align: left;
   color: #B3975B;
@@ -1051,9 +1050,12 @@ video {
   text-align: center;
 }
 
+
+
 #book-never {
   color: #522200;
   text-decoration: underline;
+  display: none;
 }
 
 #hide-jot {
@@ -1071,6 +1073,45 @@ video {
   min-width: 490px;
   max-width: 100%;
   height:500px;
+  display: none;
+}
+
+.booking {
+  width: 250px;
+  height: 10vh;
+  margin: 0 auto;
+  text-align: center;
+  border: none;
+  border-radius: 25px;
+  background-color: #B3975B;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+  border: solid 1px black;
+  transition: 0.6s ;
+}
+
+.booking:hover {
+  background-color: #b3975bd1;
+  scale: 1.2;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+
+/* .booking p {
+  border: solid 1px rgb(173, 128, 23) ;
+  width: 20%;
+  margin: 0 auto;
+  border-radius: 15px;
+} */
+
+#section-booking-block {
+  width: 80%;
+  text-align: center;
 }
 
 
