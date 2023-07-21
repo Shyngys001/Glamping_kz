@@ -160,7 +160,7 @@ video {
 
 .header--transparent {
   background-color: white;
-  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.3);
+  box-shadow: 0 3px 10px rgba(52, 47, 47, 0.393);
 }
 
 #header-logo {
