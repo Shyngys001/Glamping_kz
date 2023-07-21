@@ -156,10 +156,14 @@ let a2_c2 = document.getElementById("section-2-content-title-text-2");
 let bookStay = document.getElementById('booking-stay');
 let book_never = document.getElementById('book-never');
 
+let shyn_book = document.getElementById('shyn_book');
+
 function setLanguage(language) {
     document.getElementById('dropdown-button').innerText = language;
     
     if (language === 'KZ') {
+      shyn_book.textContent = 'Броньдау';
+
       tour_txt_1.textContent = "ДЕМАЛЫС ІС-ШАРАЛАРЫ";
       tour_txt_2.textContent = "Яхтинг";
       tour_txt_3.textContent = "Сүңгу";
@@ -232,6 +236,8 @@ function setLanguage(language) {
       footer_text_1.textContent = "Қазақстан Республикасы Маңғыстау облысы, Мұнайлы ауданы, Қызылқұм жері, 2/27 учаскесі";
         
     } else if (language === 'EN') {
+      shyn_book.textContent = 'Book';
+
       tour_txt_1.textContent = "ACTIVITIES";
       tour_txt_2.textContent = "Yachting";
       tour_txt_3.textContent = "Diving";
@@ -302,6 +308,8 @@ function setLanguage(language) {
       footer_text_1.textContent = "Republic of Kazakhstan Mangystau region, Munailinsky district, Kyzylkum locality, plot 2/27";
         
     } else if (language === 'RU') {
+      shyn_book.textContent = 'Забронировать';
+
       tour_txt_1.textContent = "АКТИВНЫЙ ОТДЫХ";
       tour_txt_2.textContent = "Яхтинг";
       tour_txt_3.textContent = "Дайвинг";
@@ -320,7 +328,7 @@ function setLanguage(language) {
       tour_txt_16.textContent = "СКАНДИНАВСКИЕ БАНИ";
       tour_txt_17.textContent = "ЕЩЕ";
       
-      bookStay.textContent = "Забронируйте приезд"
+      bookStay.textContent = "Забронируйте отдых"
       book_never.textContent = "Незабываемый день"
 
       // header_text_1.textContent = "Главное";
